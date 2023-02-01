@@ -13,6 +13,10 @@
 
 #### Changelog
 
+**v1.1**
+
+* Refine code
+
 **v1.0**
 
 * Initial release

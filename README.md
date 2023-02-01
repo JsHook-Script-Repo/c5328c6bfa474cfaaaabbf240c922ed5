@@ -27,4 +27,4 @@
 
 #### Author
 
-* [@JeelsBoobz5](https://www.github.com/JeelsBoobz)
+* [@JeelsBoobz](https://www.github.com/JeelsBoobz)

@@ -1,6 +1,6 @@
 ### Telegraph Messenger Unlocker - Rooted / Un-rooted
 
-* Tested: T9.3.3 - P10.6.1
+* Tested: T9.4.9 - P10.7
 * Compatibility: Rooted | Un-rooted
 
 ---
@@ -12,6 +12,10 @@
 ---
 
 #### Changelog
+
+**v1.2**
+
+* Update to T9.4.9 - P10.7
 
 **v1.1**
 

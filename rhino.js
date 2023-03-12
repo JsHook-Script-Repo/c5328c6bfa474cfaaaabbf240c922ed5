@@ -15,16 +15,12 @@ common.hookAllMethods('android.app.ActivityThread', 'performLaunchActivity', nul
     common.hookAllMethods(ConnectionManagerTG, 'native_checkLicense', function (param) {
         param.setResult(true);
     });
-    var ChatUIActivityTG = common.findClass('org.telegram.ui.fl', classLoader);
-    common.hookAllMethods(ChatUIActivityTG, 'gq', function (param) {
-        param.setResult(null);
-    });
-    var MessagesControllerTG = common.findClass('org.telegram.messenger.r70', classLoader);
-    common.hookAllMethods(MessagesControllerTG, 'm9', function (param) {
+    var MessagesControllerTG = common.findClass('org.telegram.messenger.m80', classLoader);
+    common.hookAllMethods(MessagesControllerTG, 'q9', function (param) {
         param.setResult(false);
      });
-    var UserConfigTG = common.findClass('org.telegram.messenger.ss0', classLoader);
-    common.hookAllMethods(UserConfigTG, 'K', function (param) {
+    var UserConfigTG = common.findClass('org.telegram.messenger.cu0', classLoader);
+    common.hookAllMethods(UserConfigTG, 'L', function (param) {
         param.setResult(true);
      });
 });
